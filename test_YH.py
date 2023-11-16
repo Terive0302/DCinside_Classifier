@@ -69,3 +69,4 @@ df_test = pd.DataFrame()
 for url in url_list:
     print(url)
     df_test.to_csv('./linked.csv',index=False)
+
